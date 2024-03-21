@@ -14,6 +14,20 @@ You can use any additional libraries that you like and you can perform styling h
 
 ## Getting Started
 
+You will need *git* and *Node* installed in order to work on this project. You can read this [Blueprint Developer Guide](https://wiki.sitblueprint.com/books/onboarding/page/blueprint-developer-setup) for details on how to download and install these softwares.
+
+You will also need to make an account on [GitHub](https://github.com) in order to access the code repository.
+
+Once you have everything installed:
+
+1. Fork the repository at https://github.com/stevensblueprint/frontend-application into your GitHub Account
+2. Clone the repository: `git clone yourForkedRepositoryName`
+3. Open a terminal and change directory into your cloned repository
+3. Run `npm install` in the terminal
+4. Run `npm run dev` in the terminal
+
+Your application should now be viewable at http://localhost:5173/. You are now ready to code - good luck!
+
 ## Submission
 
 
