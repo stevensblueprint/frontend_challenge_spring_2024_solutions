@@ -60,6 +60,13 @@ This will install all of the proper node modules that are needed to run the base
 ```npm run dev```
 Your application should now be viewable at http://localhost:5173/. You are now ready to start developing - good luck! Don't forget to look at the Figma for guidance on what should be in your submission.
 
+### _Optional_ Extra Features
+If you have additional time and want to add some extra features to your application feel free to add one or more following. Keep in mind, these are not neccessary by any means, just cool add-ons.
+
+1. Componentization: Ensure your Form and Content blocks are their own respective components, and they are used in the main App file.
+2. Form Validation: On form submission, if a field is invalid, an error message specifying which fields were incorrect will appear. Empty fields should throw an error too. How you want to display the message is up to you! 
+3. Animations: On form submission you can include a loading spinner and/or a load-in animation for the data populating the table
+
 ## Submission
 
 1. Commit your code to your branch on your forked repository.
