@@ -6,13 +6,13 @@ Thank you for taking the time to apply to the Blueprint Project Teams and partic
 
 1. A form that takes 3 fields: Name, Email, and Graduation Year. Users should be able to enter their information in these fields. When they press submit, the information they entered should show in a table below the form.
 
-2. Fetch from local JSON file. From name.json 
+2. Display data from fetch call: Fetch from local JSON file called `content.json` inside of the `src/assets/data` folder. It will contain all of the text needed to be displayed (apart from the form)
 
-You will do all of this in a branch within a forked repository and then open a Pull Request to submit. This will help familiarize you with some of the key features of git and GitHub. There are more details in the Getting Started section regarding creating forks and branches.
+You will do all of this in a branch within a forked repository and then open a Pull Request to your OWN forked repository to submit. This will help familiarize you with some of the key features of git and GitHub. There are more details in the Getting Started section regarding creating forks and branches.
 
-You can refer to this [Figma](https://www.figma.com/file/CYHTDweja1x3V58aNAfSfZ/Blueprint-Frontend-Assessment-S24?type=design&node-id=0-1&mode=design&t=luLjweYk40pUovrH-0) for a better representation of what we would like to see. You do NOT have to implement the designs exactly. This Figma is provided as a general structure - think of it as what you might receive from a designer and it is up to you to implement it. 
+You can refer to this [Figma Design File](https://www.figma.com/file/CYHTDweja1x3V58aNAfSfZ/Blueprint-Frontend-Assessment-S24?type=design&node-id=1%3A3&mode=design&t=MvITKiSPF3MXzYek-1) for a better representation of what we would like to see. You do NOT have to implement the designs exactly. This Figma is provided as a general structure - think of it as what you might receive from a designer and it is up to you to implement it. Being able to implement designs is a core skill of our project team members so we hope you try your best!
 
-You can use any additional libraries that you like and you can perform styling however you wish (Vanilla CSS, Tailwind, SCSS, etc.). If you have any questions about this challenge, please do not hesitate to reach out to Shawn Aviles (saviles26@stevens.edu) or Christian Apostol (caposto1@stevens.edu).
+You can use any additional libraries that you like and you can perform styling however you wish (Vanilla CSS, Tailwind, SCSS, etc.). If you have any questions about this challenge, please do not hesitate to reach out to Shawn Aviles (saviles@stevens.edu) or Christian Apostol (caposto1@stevens.edu). You can also send us messages on the discord too!
 
 ## Getting Started
 
@@ -38,11 +38,11 @@ To clone the repository:
 2. Navigate to the directory where you want to clone the repository
 3. Run the following command:
 ```git clone <repository-url>```
-Replace `<repository-url>` with the URL of your forked repository.
+Replace `<repository-url>` with the URL of your forked repository. The repository URL can be found by pressing the green 'Code' button and copying the HTTPS link. It will be a github link that includes your github username and forked repo name. 
 
 ### Step 3: Create a New Branch
 
-Before you make changes to the HTML file, you should create a new branch. This allows you to make changes without affecting the main branch of the repository.
+Before you make changes to the HTML file, you should create a new branch. This allows you to make changes without affecting the main branch of the repository. All development work for our teams exists in branches and are later merged into main with Pull Requests!
 
 To create a new branch:
 
@@ -58,7 +58,7 @@ Replace `yourName` with your first name. So your full branch name could be ```fe
 This will install all of the proper node modules that are needed to run the base code.
 2. Run the following command:
 ```npm run dev```
-Your application should now be viewable at http://localhost:5173/. You are now ready to code - good luck!
+Your application should now be viewable at http://localhost:5173/. You are now ready to start developing - good luck! Don't forget to look at the Figma for guidance on what should be in your submission.
 
 ## Submission
 
