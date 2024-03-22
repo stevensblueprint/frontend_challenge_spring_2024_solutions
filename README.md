@@ -8,26 +8,62 @@ Thank you for taking the time to apply to the Blueprint Project Teams and partic
 
 2. Fetch from local JSON file. From name.json 
 
+You will do all of this in a branch within a forked repository and then open a Pull Request to submit. This will help familiarize you with some of the key features of git and GitHub. There are more details in the Getting Started section regarding creating forks and branches.
+
 You can refer to this [Figma](https://www.figma.com/file/CYHTDweja1x3V58aNAfSfZ/Blueprint-Frontend-Assessment-S24?type=design&node-id=0-1&mode=design&t=luLjweYk40pUovrH-0) for a better representation of what we would like to see. You do NOT have to implement the designs exactly. This Figma is provided as a general structure - think of it as what you might receive from a designer and it is up to you to implement it. 
 
 You can use any additional libraries that you like and you can perform styling however you wish (Vanilla CSS, Tailwind, SCSS, etc.). If you have any questions about this challenge, please do not hesitate to reach out to Shawn Aviles (saviles26@stevens.edu) or Christian Apostol (caposto1@stevens.edu).
 
 ## Getting Started
 
-You will need *git* and *Node* installed in order to work on this project. You can read this [Blueprint Developer Guide](https://wiki.sitblueprint.com/books/onboarding/page/blueprint-developer-setup) for details on how to download and install these softwares.
+You will need *git* and *Node* installed in order to work on this project. You can read this [Blueprint Developer Guide](https://wiki.sitblueprint.com/books/onboarding/page/blueprint-developer-setup) for details on how to download and install these softwares. You will also need to make an account on [GitHub](https://github.com) in order to access the code repository. Once you have everything installed you can follow these steps:
 
-You will also need to make an account on [GitHub](https://github.com) in order to access the code repository.
+### Step 1: Fork the Repository
 
-Once you have everything installed:
+The first step is to fork the repository that contains the Frontend Challenge starter code. This creates a copy of the repository in your own GitHub account that you can work on without affecting the original.
 
-1. Fork the repository at https://github.com/stevensblueprint/frontend-application into your GitHub Account
-2. Clone the repository: `git clone yourForkedRepositoryName`
-3. Open a terminal and change directory into your cloned repository
-3. Run `npm install` in the terminal
-4. Run `npm run dev` in the terminal
+To fork the repository:
 
+1. Navigate to the repository on GitHub (https://github.com/stevensblueprint/frontend-application)
+2. Click the "Fork" button in the top right corner of the page
+3. Select your GitHub account as the destination for the fork
+
+### Step 2: Clone the Repository
+
+Next, you need to clone the repository to your local machine. This creates a local copy of the repository that you can make changes to.
+
+To clone the repository:
+
+1. Open a terminal window
+2. Navigate to the directory where you want to clone the repository
+3. Run the following command:
+```git clone <repository-url>```
+Replace `<repository-url>` with the URL of your forked repository.
+
+### Step 3: Create a New Branch
+
+Before you make changes to the HTML file, you should create a new branch. This allows you to make changes without affecting the main branch of the repository.
+
+To create a new branch:
+
+1. Navigate to the cloned repository directory in your terminal
+2. Run the following command:
+```git checkout -b feature/yourName```
+Replace `yourName` with your first name. So your full branch name could be ```feature/shawn```.
+
+### Step 4: Download Dependencies and Run Project
+
+1. Run the following command:
+```npm install```
+This will install all of the proper node modules that are needed to run the base code.
+2. Run the following command:
+```npm run dev```
 Your application should now be viewable at http://localhost:5173/. You are now ready to code - good luck!
 
 ## Submission
 
+1. Commit your code to your branch on your forked repository.
+2. Create a Pull Request (PR). Steps to do that can be found [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+3. Email a link to your Pull Request (PR) to **sit.blueprint@gmail.com**. Please make the subject of your email "Frontend Challenge: YOURNAME" i.e "Frontend Challenge: Christian Apostol". 
 
+This challenge is due on March 28 @ 11:59 P.M. Challenges will be discussed during the 3rd round of applications: Coffee Chats. Thank you for your time!
