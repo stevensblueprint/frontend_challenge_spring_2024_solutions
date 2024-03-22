@@ -6,7 +6,7 @@ Thank you for taking the time to apply to the Blueprint Project Teams and partic
 
 1. A form that takes 3 fields: Name, Email, and Graduation Year. Users should be able to enter their information in these fields. When they press submit, the information they entered should show in a table below the form.
 
-2. Display data from fetch call: Fetch from local JSON file called `content.json` inside of the `src/assets/data` folder. It will contain all of the text needed to be displayed (apart from the form)
+2. Display JSON data: Fetch from local JSON file called `content.json` inside of the `src/assets/data` folder. It will contain all of the text needed to be displayed (apart from the form). You can import the json data directly into your component and display it according to the Figma Design File below.
 
 You will do all of this in a branch within a forked repository and then open a Pull Request to your OWN forked repository to submit. This will help familiarize you with some of the key features of git and GitHub. There are more details in the Getting Started section regarding creating forks and branches.
 
