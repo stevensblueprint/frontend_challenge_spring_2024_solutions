@@ -1,4 +1,5 @@
 import blueprintLogo from './assets/blueprint.png'
+import Form from './components/Form'
 import './App.css'
 
 function App() {
@@ -9,10 +10,7 @@ function App() {
           <img src={blueprintLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Blueprint Frontend Assessment S2024</h1>
-      <p className="">
-        View the designs
-      </p>
+      <Form></Form>
     </>
   )
 }
