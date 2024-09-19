@@ -1,6 +1,6 @@
 import blueprintLogo from './assets/blueprint.png'
 import Form from './components/Form'
-import './App.css'
+import Content from './components/Content'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         </a>
       </div>
       <Form></Form>
+      <Content />
     </>
   )
 }
