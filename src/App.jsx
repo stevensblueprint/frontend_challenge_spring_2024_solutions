@@ -1,5 +1,6 @@
 import blueprintLogo from './assets/blueprint.png'
 import Form from './components/Form'
+import Footer from './components/Footer'
 import Content from './components/Content'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </div>
       <Form></Form>
       <Content />
+      <Footer />
     </>
   )
 }
