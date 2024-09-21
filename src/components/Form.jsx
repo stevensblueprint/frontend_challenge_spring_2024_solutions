@@ -1,3 +1,5 @@
+import blueprintLogo from '../assets/blueprint.png'
+
 const Form = () => {
 
   const handleSubmission = () => {
@@ -8,6 +10,12 @@ const Form = () => {
     <>
       <div className="flex flex-col">
         <h1>Stevens Blueprint Frontend Assessment S2024</h1>
+
+        <div className='logo'>
+          <a href="https://sitblueprint.com" target="_blank">
+            <img src={blueprintLogo} className="logo" alt="Vite logo" />
+          </a>
+      </div>
 
         <h2>Christian & Shawn's Custom Form</h2>
 
