@@ -11,7 +11,7 @@ function App() {
           <img src={blueprintLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <Form></Form>
+      <Form />
       <Content />
       <Footer />
     </>
