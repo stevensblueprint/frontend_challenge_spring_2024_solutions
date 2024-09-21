@@ -1,9 +1,27 @@
+import { useState } from 'react'
 import blueprintLogo from '../assets/blueprint.png'
 
 const Form = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [year, setYear] = useState("")
 
-  const handleSubmission = () => {
-    console.log("SUBMITTED")
+  const handleSubmission = (event) => {
+    // preventDeault() allows you to add custom handling for the form
+    event.preventDefault()
+
+    // Get form object and obtain the submitted fields
+    const form = event.target
+    let formData = new FormData(form)
+    let formDataObject = Object.fromEntries(formData.entries())
+
+    // Update the state variable to display it in the table below
+    setName(formDataObject.name)
+    setEmail(formDataObject.email)
+    setYear(formDataObject.graduationYear)
+
+    // Clears the form fields
+    form.reset()
   }
 
   return (
@@ -51,20 +69,19 @@ const Form = () => {
 
         <hr></hr>
 
-        <table className="w-full table-auto border-collapse">
+        <table className="w-full table-fixed border-collapse">
           <thead>
             <tr>
-              <th className="border px-4 py-2">Name</th>
-              <th className="border px-4 py-2">Email</th>
-              <th className="border px-4 py-2">Graduation Year</th>
+              <th className="border border-black px-4 py-2">Name</th>
+              <th className="border border-black px-4 py-2">Email</th>
+              <th className="border border-black px-4 py-2">Graduation Year</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              {/* Replace with state variables */}
-              <td className="border px-4 py-2">Name</td>
-              <td className="border px-4 py-2">Email</td>
-              <td className="border px-4 py-2">Graduation Year</td>
+              <td className="border border-black px-4 py-2 h-10">{name}</td>
+              <td className="border border-black px-4 py-2 h-10">{email}</td>
+              <td className="border border-black px-4 py-2 h-10">{year}</td>
             </tr>
           </tbody>
         </table>
