@@ -7,7 +7,7 @@ const Form = () => {
   const [year, setYear] = useState("")
 
   const handleSubmission = (event) => {
-    // preventDeault() allows you to add custom handling for the form
+    // preventDefault() allows you to add custom handling for the form
     event.preventDefault()
 
     // Get form object and obtain the submitted fields
@@ -26,11 +26,11 @@ const Form = () => {
 
   return (
     <>
-      <div className="flex flex-col mx-80 my-8 p-16 border-2 border-indigo-400 rounded-lg space-y-8">
-        <h1 className="text-center text-3xl font-bold">Stevens Blueprint Frontend Assessment S2024</h1>
+      <div className="flex flex-col mx-4 md:mx-20 lg:mx-40 xl:mx-80 my-8 p-8 md:p-16 border-2 border-indigo-400 rounded-lg space-y-8">
+        <h1 className="text-center text-2xl md:text-3xl font-bold">Stevens Blueprint Frontend Assessment S2024</h1>
         
         <a href="https://sitblueprint.com" target="_blank" className="flex justify-center">
-          <img src={blueprintLogo} className="w-48 h-auto" alt="Blueprint logo" />
+          <img src={blueprintLogo} className="w-32 md:w-48 h-auto" alt="Blueprint logo" />
         </a>
 
         <h2 className="text-center text-xl font-semibold">Christian's & Shawn's Custom Form</h2>
@@ -61,13 +61,13 @@ const Form = () => {
           </div>
 
           <div className="flex justify-center">
-            <button type="submit" className="w-1/4 bg-primary text-white py-2 px-4 rounded-full hover:bg-secondary">
+            <button type="submit" className="w-full md:w-1/4 bg-primary text-white py-2 px-4 rounded-full hover:bg-secondary">
               Submit
             </button>
           </div>
         </form>
 
-        <hr></hr>
+        <hr />
 
         <table className="w-full table-fixed border-collapse">
           <thead>
