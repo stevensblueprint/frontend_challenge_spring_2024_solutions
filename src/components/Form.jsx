@@ -8,7 +8,7 @@ const Form = () => {
 
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center rounded border-indigo-400">
         <h1>Stevens Blueprint Frontend Assessment S2024</h1>
 
         <div className='logo'>
@@ -24,14 +24,14 @@ const Form = () => {
           so that it can be displayed below!
         </h3>
 
-        <form action={handleSubmission}>
-            <label for="name">Name</label>
+        <form action={handleSubmission()}>
+            <label htmlFor="name">Name</label>
             <input type="text" name="name"/>
 
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="text" name="email" />
 
-            <label for="graduationYear">Graduation Year</label>
+            <label htmlFor="graduationYear">Graduation Year</label>
             <input type="radio" name="graduationYear" value="2025"/> 2025
             <input type="radio" name="graduationYear" value="2026"/> 2026
             <input type="radio" name="graduationYear" value="2027"/> 2027
@@ -41,14 +41,21 @@ const Form = () => {
         </form>
 
         <table>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Graduation Year</th>
-          </tr>
-          <tr>
-            {/* Replace with state variables */}
-          </tr>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Graduation Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {/* Replace with state variables */}
+              <td>Name</td>
+              <td>Email</td>
+              <td>Graduation Year</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </>
